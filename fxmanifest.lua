@@ -5,10 +5,10 @@ author 'Import'
 description 'default commands'
 lua54 'yes'
 
-shared_scripts {
+shared_script {
 	'@ox_lib/init.lua'
 }
 
-client_scripts {
+client_script {
     'client.lua'
 }
