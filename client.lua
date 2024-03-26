@@ -3,6 +3,7 @@ RegisterCommand("test", function()
   lib.notify({
     title = 'Title',
     description = 'text copied',
+    position = 'top',
     type = 'info'
   })
 end)
