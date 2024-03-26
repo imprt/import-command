@@ -1,4 +1,4 @@
-RegisterCommand("command", function()
+RegisterCommand("test", function()
   lib.setClipboard('Your text here')
   lib.notify({
     title = 'Title',
